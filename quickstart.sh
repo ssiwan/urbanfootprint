@@ -51,7 +51,7 @@ cp /srv/calthorpe/urbanfootprint/.env.sample /srv/calthorpe/urbanfootprint/.env
 chown calthorpe:calthorpe /srv/calthorpe/urbanfootprint/.env
 
 # retrieve sample web database
-wget -O /srv/datadump/urbanfootprint-sacog-web-db.sql.gz http://folsomwebdesigner.com/http://folsomwebdesigner.com/urbanfootprint-sacog-web-db.sql.gz
+wget -O /srv/datadump/urbanfootprint-sacog-web-db.sql.gz http://folsomwebdesigner.com/urbanfootprint-sacog-web-db.sql.gz
 gunzip -f /srv/datadump/urbanfootprint-sacog-web-db.sql.gz
 
 # import sample web database
